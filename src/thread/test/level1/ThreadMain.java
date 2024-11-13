@@ -1,6 +1,8 @@
 package thread.test.level1;
 
-import static thread.start.MyLogger.log;
+import thread.util.ThreadUtils;
+
+import static thread.util.MyLogger.log;
 
 public class ThreadMain {
     public static void main(String[] args) {
@@ -30,11 +32,12 @@ public class ThreadMain {
         public void run() {
             while (true) {
                 log(content);
-                try {
-                    Thread.sleep(sleepMs);
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
+                ThreadUtils.sleep(sleepMs);
+//                try {
+//                    Thread.sleep(sleepMs);
+//                } catch (InterruptedException e) {
+//                    throw new RuntimeException(e);
+//                }
             }
         }
 

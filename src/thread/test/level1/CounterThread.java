@@ -1,6 +1,6 @@
 package thread.test.level1;
 
-import static thread.start.MyLogger.log;
+import static thread.util.MyLogger.log;
 
 public class CounterThread extends Thread {
 

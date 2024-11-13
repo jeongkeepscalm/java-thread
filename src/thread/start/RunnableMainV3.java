@@ -1,6 +1,6 @@
 package thread.start;
 
-import static thread.start.MyLogger.log;
+import static thread.util.MyLogger.log;
 
 public class RunnableMainV3 {
 

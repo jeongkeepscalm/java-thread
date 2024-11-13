@@ -1,6 +1,6 @@
 package thread.start;
 
-import static thread.start.MyLogger.*;
+import static thread.util.MyLogger.*;
 
 public class DaemonThreadMain {
 

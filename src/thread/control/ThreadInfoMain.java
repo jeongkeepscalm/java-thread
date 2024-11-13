@@ -2,7 +2,7 @@ package thread.control;
 
 import thread.start.HelloRunnable;
 
-import static thread.start.MyLogger.log;
+import static thread.util.MyLogger.log;
 
 public class ThreadInfoMain {
     public static void main(String[] args) {
