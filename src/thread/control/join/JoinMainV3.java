@@ -1,4 +1,4 @@
-package thread.control;
+package thread.control.join;
 
 import static thread.util.MyLogger.log;
 import static thread.util.ThreadUtils.sleep;

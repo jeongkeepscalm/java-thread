@@ -1,11 +1,11 @@
-package thread.control;
+package thread.control.join;
 
 import static thread.util.MyLogger.log;
 import static thread.util.ThreadUtils.sleep;
 
 /**
- * join(ms) 을 호출하는 스레드는 대상 스레드가 ms 동안 대기한다. 
- * ms 이전에 해당 스레드가 종료되면 ms 동안 기다리지 않고 호출한 스레드가 실행된다. 
+ * join(ms) 을 호출하는 스레드는 대상 스레드가 ms 동안 대기한다.
+ * ms 이전에 해당 스레드가 종료되면 ms 동안 기다리지 않고 호출한 스레드가 실행된다.
  */
 public class JoinMainV4 {
 

@@ -1,13 +1,9 @@
-package thread.control;
+package thread.control.join;
 
 import static thread.util.MyLogger.log;
 import static thread.util.ThreadUtils.sleep;
 
-/**
- * 특정 스레드를 기다리게 하는 가장 간단한 방법은 sleep() 을 사용하는 것이다.
- * 하지만 thread-1, thread-2 의 수행시간이 달라지는 경우에는 정확한 타이밍을 맞추기 어렵다.
- */
-public class JoinMainV2 {
+public class JoinMainV1 {
 
     public static void main(String[] args) {
         log("Start");
@@ -18,11 +14,6 @@ public class JoinMainV2 {
         thread1.start();
         thread2.start();
 
-        // 정확한 타이밍을 맞추어 기다리기 어려움
-        log("main 스레드 sleep()");
-        sleep(3000);
-        log("main 스레드 깨어남");
-
         log("task1.result = " + task1.sum );
         log("task2.result = " + task2.sum);
 
@@ -30,6 +21,17 @@ public class JoinMainV2 {
         log("task1 + task2 = " + sumAll);
         log("End");
 
+        /*
+            16:59:47.546 [     main] Start
+            16:59:47.556 [ thread-1] 작업 시작
+            16:59:47.556 [ thread-2] 작업 시작
+            16:59:47.560 [     main] task1.result = 0
+            16:59:47.560 [     main] task2.result = 0
+            16:59:47.561 [     main] task1 + task2 = 0
+            16:59:47.561 [     main] End
+            16:59:49.566 [ thread-1] 작업 완료: sum= 1275
+            16:59:49.566 [ thread-2] 작업 완료: sum= 3775
+         */
     }
 
     static class SumTask implements Runnable {
