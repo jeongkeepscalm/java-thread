@@ -1,7 +1,5 @@
 package thread.control.interupt;
 
-import java.awt.desktop.ScreenSleepEvent;
-
 import static thread.util.MyLogger.log;
 import static thread.util.ThreadUtils.sleep;
 

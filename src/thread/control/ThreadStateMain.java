@@ -17,7 +17,7 @@ public class ThreadStateMain {
         log("end");
     }
 
-    static class MyRunnable implements Runnable {
+    public static class MyRunnable implements Runnable {
         @Override
         public void run() {
             log("start");
