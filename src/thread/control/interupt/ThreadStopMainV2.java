@@ -8,18 +8,18 @@ public class ThreadStopMainV2 {
     public static void main(String[] args) {
 
         MyTask myTask = new MyTask();
-        Thread thread = new Thread(myTask, "work");
-        thread.start();
+        Thread myTaskThread = new Thread(myTask, "work");
+        myTaskThread.start();
 
         sleep(4000);
-        log("작업 중단 지시 thread.interrupt()");
-        thread.interrupt();
-        log("work 스레드 인터럽트 상태1 = " + thread.isInterrupted());
+        log("작업 중단 지시 myTaskThread.interrupt()");
+        myTaskThread.interrupt(); // myTaskThread 작업 즉각 중단
+        log("work 스레드 인터럽트 상태1 = " + myTaskThread.isInterrupted());
 
         /*
             18:04:31.477 [     work] 작업 중
             18:04:34.494 [     work] 작업 중
-            18:04:35.475 [     main] 작업 중단 지시 thread.interrupt()
+            18:04:35.475 [     main] 작업 중단 지시 myTaskThread.interrupt()
             18:04:35.487 [     main] work 스레드 인터럽트 상태1 = true
             18:04:35.487 [     work] work 스레드 인터럽트 상태2 = false
             18:04:35.488 [     work] interrupt message=sleep interrupted
