@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d406cda-adef-4437-a88b-29d644c88b38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/ExecutorBasicMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/ExecutorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/RunnableTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jeongkeepscalm&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jeongkeepscalm/java-thread.git&quot;,
+    &quot;accountId&quot;: &quot;113260a2-23a1-4a6f-b76c-9743a447649b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2om7zmkWsbmDdlOQeCkVuAKtcDL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BankMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoundedMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CallableMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CallableMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CasMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CasMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CasMainV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CounterRunnableMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CounterRunnableMain2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CounterRunnableMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CounterThreadMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DaemonThreadMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorBasicMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloThreadMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IncrementPerformanceMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IncrementThreadMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinMainV0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinMainV3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinMainV3 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinMainV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinMainV4 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinTest1Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinTest2Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockSupportMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockSupportMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyLoggerMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyPrinterV1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyPrinterV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyPrinterV2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyPrinterV2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyPrinterV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyPrinterV3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyPrinterV3 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyPrinterV3 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyPrinterV3 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyPrinterV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunnableMainV1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunnableMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunnableMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunnableMainV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunnableMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumTaskMainV1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumTaskMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumTaskMainV2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumTaskMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SyncTest1BadMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SyncTest2BadMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadInfoMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStateMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStopMainV1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStopMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStopMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStopMainV3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStopMainV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadStopMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCountMain (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCountMain (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCountMain (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCountMain (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileCountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileFlagMain (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.VolatileFlagMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.YieldMain (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.YieldMain (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.YieldMain (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.YieldMain (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.YieldMain.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.executor.future" />
+      <recent name="thread.cas" />
+      <recent name="thread.cas.increment" />
+      <recent name="thread.bounded" />
+      <recent name="thread.sync" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SumTaskMainV1">
+    <configuration name="SumTaskMainV1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV1" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.executor.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumTaskMainV1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV1" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.executor.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumTaskMainV1 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV1" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.executor.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumTaskMainV1 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.executor.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumTaskMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV1" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.executor.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SumTaskMainV1" />
+        <item itemvalue="Application.SumTaskMainV1 (5)" />
+        <item itemvalue="Application.SumTaskMainV1 (4)" />
+        <item itemvalue="Application.SumTaskMainV1 (3)" />
+        <item itemvalue="Application.SumTaskMainV1 (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d406cda-adef-4437-a88b-29d644c88b38" name="Changes" comment="" />
+      <created>1731463164872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731463164872</updated>
+      <workItem from="1731463165936" duration="20533000" />
+      <workItem from="1731546760274" duration="97000" />
+      <workItem from="1731546959525" duration="263000" />
+      <workItem from="1731547239883" duration="9849000" />
+      <workItem from="1731560728720" duration="12761000" />
+      <workItem from="1731575234987" duration="1844000" />
+      <workItem from="1731628420909" duration="13438000" />
+      <workItem from="1731891746500" duration="13242000" />
+      <workItem from="1731975169517" duration="1604000" />
+      <workItem from="1731977077421" duration="4700000" />
+      <workItem from="1732181557615" duration="2709000" />
+      <workItem from="1732184492881" duration="362000" />
+      <workItem from="1732266337030" duration="13000" />
+      <workItem from="1732492289326" duration="901000" />
+      <workItem from="1732493388025" duration="1607000" />
+      <workItem from="1732499217286" duration="136000" />
+      <workItem from="1732580232262" duration="6220000" />
+      <workItem from="1732586944166" duration="196000" />
+      <workItem from="1732587151287" duration="112000" />
+      <workItem from="1732587306152" duration="120000" />
+      <workItem from="1732587436644" duration="97000" />
+      <workItem from="1732588119418" duration="53000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
