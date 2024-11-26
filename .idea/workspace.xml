@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d406cda-adef-4437-a88b-29d644c88b38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/ExecutorBasicMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/ExecutorUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/RunnableTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,98 +47,99 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BankMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BoundedMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CallableMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CallableMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CasMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CasMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CasMainV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CounterRunnableMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CounterRunnableMain2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CounterRunnableMain2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CounterThreadMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DaemonThreadMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExecutorBasicMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloThreadMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IncrementPerformanceMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IncrementThreadMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinMainV0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinMainV3 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinMainV3 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinMainV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinMainV4 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinMainV4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinTest1Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinTest2Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LockSupportMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LockSupportMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyLoggerMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyPrinterV1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyPrinterV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyPrinterV2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyPrinterV2 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyPrinterV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyPrinterV3 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyPrinterV3 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyPrinterV3 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyPrinterV3 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyPrinterV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RunnableMainV1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.RunnableMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RunnableMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RunnableMainV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RunnableMainV4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumTaskMainV1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumTaskMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumTaskMainV2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumTaskMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SyncTest1BadMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SyncTest2BadMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadInfoMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadStateMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadStopMainV1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadStopMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadStopMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadStopMainV3 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadStopMainV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadStopMainV4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VolatileCountMain (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.VolatileCountMain (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.VolatileCountMain (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.VolatileCountMain (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.VolatileCountMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VolatileFlagMain (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.VolatileFlagMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.YieldMain (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.YieldMain (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.YieldMain (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.YieldMain (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.YieldMain.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BankMain.executor": "Run",
+    "Application.BoundedMain.executor": "Run",
+    "Application.CallableMainV1.executor": "Run",
+    "Application.CallableMainV2.executor": "Run",
+    "Application.CasMainV1.executor": "Run",
+    "Application.CasMainV2.executor": "Run",
+    "Application.CasMainV3.executor": "Run",
+    "Application.CounterRunnableMain.executor": "Run",
+    "Application.CounterRunnableMain2 (1).executor": "Run",
+    "Application.CounterRunnableMain2.executor": "Run",
+    "Application.CounterThreadMain.executor": "Run",
+    "Application.DaemonThreadMain.executor": "Run",
+    "Application.ExecutorBasicMain.executor": "Run",
+    "Application.HelloThreadMain.executor": "Run",
+    "Application.IncrementPerformanceMain.executor": "Run",
+    "Application.IncrementThreadMain.executor": "Run",
+    "Application.JoinMainV0.executor": "Run",
+    "Application.JoinMainV1.executor": "Run",
+    "Application.JoinMainV2.executor": "Run",
+    "Application.JoinMainV3 (1).executor": "Run",
+    "Application.JoinMainV3 (2).executor": "Run",
+    "Application.JoinMainV3.executor": "Run",
+    "Application.JoinMainV4 (1).executor": "Run",
+    "Application.JoinMainV4.executor": "Run",
+    "Application.JoinTest1Main.executor": "Run",
+    "Application.JoinTest2Main.executor": "Run",
+    "Application.LockSupportMainV1.executor": "Run",
+    "Application.LockSupportMainV2.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MyLoggerMain.executor": "Run",
+    "Application.MyPrinterV1 (1).executor": "Run",
+    "Application.MyPrinterV1.executor": "Run",
+    "Application.MyPrinterV2 (1).executor": "Run",
+    "Application.MyPrinterV2 (2).executor": "Run",
+    "Application.MyPrinterV2.executor": "Run",
+    "Application.MyPrinterV3 (1).executor": "Run",
+    "Application.MyPrinterV3 (2).executor": "Run",
+    "Application.MyPrinterV3 (3).executor": "Run",
+    "Application.MyPrinterV3 (4).executor": "Run",
+    "Application.MyPrinterV3.executor": "Run",
+    "Application.RunnableMainV1 (1).executor": "Run",
+    "Application.RunnableMainV1.executor": "Run",
+    "Application.RunnableMainV2.executor": "Run",
+    "Application.RunnableMainV3.executor": "Run",
+    "Application.RunnableMainV4.executor": "Run",
+    "Application.SumTaskMainV1 (1).executor": "Run",
+    "Application.SumTaskMainV1.executor": "Run",
+    "Application.SumTaskMainV2 (1).executor": "Run",
+    "Application.SumTaskMainV2.executor": "Run",
+    "Application.SyncTest1BadMain.executor": "Run",
+    "Application.SyncTest2BadMain.executor": "Run",
+    "Application.ThreadInfoMain.executor": "Run",
+    "Application.ThreadMain.executor": "Run",
+    "Application.ThreadStateMain.executor": "Run",
+    "Application.ThreadStopMainV1 (1).executor": "Run",
+    "Application.ThreadStopMainV1.executor": "Run",
+    "Application.ThreadStopMainV2.executor": "Run",
+    "Application.ThreadStopMainV3 (1).executor": "Run",
+    "Application.ThreadStopMainV3.executor": "Run",
+    "Application.ThreadStopMainV4.executor": "Run",
+    "Application.VolatileCountMain (1).executor": "Run",
+    "Application.VolatileCountMain (2).executor": "Run",
+    "Application.VolatileCountMain (3).executor": "Run",
+    "Application.VolatileCountMain (4).executor": "Run",
+    "Application.VolatileCountMain.executor": "Run",
+    "Application.VolatileFlagMain (1).executor": "Run",
+    "Application.VolatileFlagMain.executor": "Run",
+    "Application.YieldMain (1).executor": "Run",
+    "Application.YieldMain (2).executor": "Run",
+    "Application.YieldMain (3).executor": "Run",
+    "Application.YieldMain (5).executor": "Run",
+    "Application.YieldMain.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/git_code/thread/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="thread.executor.future" />
@@ -273,6 +264,7 @@
       <workItem from="1732587306152" duration="120000" />
       <workItem from="1732587436644" duration="97000" />
       <workItem from="1732588119418" duration="53000" />
+      <workItem from="1732588174876" duration="841000" />
     </task>
     <servers />
   </component>

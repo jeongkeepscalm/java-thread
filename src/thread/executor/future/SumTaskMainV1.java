@@ -40,11 +40,11 @@ public class SumTaskMainV1 {
         @Override
         public void run() {
             log("작업 시작");
-//            try {
-//                Thread.sleep(2000);
-//            } catch (InterruptedException e) {
-//                throw new RuntimeException(e);
-//            }
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
             int sum = 0;
             for (int i = startValue; i <= endValue; i++) {
                 sum += i;
