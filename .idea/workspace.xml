@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d406cda-adef-4437-a88b-29d644c88b38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/CallableTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/FutureCancelMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/FutureExceptionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/InvokeAllMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/InvokeAnyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV2_Bad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +69,13 @@
     "Application.CounterThreadMain.executor": "Run",
     "Application.DaemonThreadMain.executor": "Run",
     "Application.ExecutorBasicMain.executor": "Run",
+    "Application.FutureCancelMain.executor": "Run",
+    "Application.FutureExceptionMain.executor": "Run",
     "Application.HelloThreadMain.executor": "Run",
     "Application.IncrementPerformanceMain.executor": "Run",
     "Application.IncrementThreadMain.executor": "Run",
+    "Application.InvokeAllMain.executor": "Run",
+    "Application.InvokeAnyMain.executor": "Run",
     "Application.JoinMainV0.executor": "Run",
     "Application.JoinMainV1.executor": "Run",
     "Application.JoinMainV2.executor": "Run",
@@ -98,6 +109,7 @@
     "Application.SumTaskMainV1.executor": "Run",
     "Application.SumTaskMainV2 (1).executor": "Run",
     "Application.SumTaskMainV2.executor": "Run",
+    "Application.SumTaskMainV2_Bad.executor": "Run",
     "Application.SyncTest1BadMain.executor": "Run",
     "Application.SyncTest2BadMain.executor": "Run",
     "Application.ThreadInfoMain.executor": "Run",
@@ -149,8 +161,60 @@
       <recent name="thread.sync" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumTaskMainV1">
-    <configuration name="SumTaskMainV1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.InvokeAllMain">
+    <configuration name="FutureCancelMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.FutureCancelMain" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.executor.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FutureExceptionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.FutureExceptionMain" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.executor.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvokeAllMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.InvokeAllMain" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.executor.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvokeAnyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.InvokeAnyMain" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.executor.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumTaskMainV1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV1" />
       <module name="thread" />
       <extension name="coverage">
@@ -189,22 +253,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumTaskMainV1 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="temurin-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.executor.future.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumTaskMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV1" />
+    <configuration name="SumTaskMainV2_Bad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.executor.future.SumTaskMainV2_Bad" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
@@ -218,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumTaskMainV1" />
-        <item itemvalue="Application.SumTaskMainV1 (5)" />
-        <item itemvalue="Application.SumTaskMainV1 (4)" />
-        <item itemvalue="Application.SumTaskMainV1 (3)" />
-        <item itemvalue="Application.SumTaskMainV1 (2)" />
+        <item itemvalue="Application.InvokeAllMain" />
+        <item itemvalue="Application.InvokeAnyMain" />
+        <item itemvalue="Application.FutureExceptionMain" />
+        <item itemvalue="Application.FutureCancelMain" />
+        <item itemvalue="Application.SumTaskMainV2_Bad" />
       </list>
     </recent_temporary>
   </component>
@@ -235,6 +285,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\ojg01\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4d406cda-adef-4437-a88b-29d644c88b38" name="Changes" comment="" />
@@ -264,7 +317,9 @@
       <workItem from="1732587306152" duration="120000" />
       <workItem from="1732587436644" duration="97000" />
       <workItem from="1732588119418" duration="53000" />
-      <workItem from="1732588174876" duration="841000" />
+      <workItem from="1732588174876" duration="916000" />
+      <workItem from="1733098301893" duration="5368000" />
+      <workItem from="1734393472484" duration="9637000" />
     </task>
     <servers />
   </component>

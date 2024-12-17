@@ -13,7 +13,7 @@ public class SumTaskMainV1 {
         thread1.start();
         thread2.start();
 
-        //스레드가 종료될 때 까지 대기
+        // 스레드가 종료될 때 까지 대기
         log("join() - main 스레드가 thread1, thread2 종료까지 대기");
         thread1.join();
         thread2.join();

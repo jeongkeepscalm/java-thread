@@ -35,6 +35,7 @@ public class CallableMainV2 {
             10:44:46.778 [     main] result value = 0
             10:44:46.779 [     main] future 완료, future = java.util.concurrent.FutureTask@6576fe71[Completed normally]
          */
+
     }
 
     /**
