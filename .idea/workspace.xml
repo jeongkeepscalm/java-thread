@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d406cda-adef-4437-a88b-29d644c88b38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/CallableTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/FutureCancelMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/FutureExceptionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/InvokeAllMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/InvokeAnyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV2_Bad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/test/level4/OldOrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/executor/future/CallableMainV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/executor/future/SumTaskMainV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +312,7 @@
       <workItem from="1732588119418" duration="53000" />
       <workItem from="1732588174876" duration="916000" />
       <workItem from="1733098301893" duration="5368000" />
-      <workItem from="1734393472484" duration="9637000" />
+      <workItem from="1734393472484" duration="12039000" />
     </task>
     <servers />
   </component>
